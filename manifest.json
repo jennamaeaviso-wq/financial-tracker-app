@@ -1,0 +1,9 @@
+{
+  "name": "Financial Tracker",
+  "short_name": "Finance Tracker",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FBFAF5",
+  "theme_color": "#84A98C",
+  "orientation": "portrait"
+}
