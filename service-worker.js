@@ -9,7 +9,7 @@ const APP_FILES = [
 
 self.addEventListener("install", function(event) {
   event.waitUntil(
-    caches.open(CACHE_NAME)
+    caches.open(CACHE_NAME) 
       .then(function(cache) {
         return cache.addAll(APP_FILES);
       })
